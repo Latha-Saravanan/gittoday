@@ -18,8 +18,13 @@ public class Data {
 	System.out.println("Employee Gender is " + empGender);
 	System.out.println("Employee City is " + empCity);
 	}
+	
+	private void employeedet() {
+    System.out.println("Process Completed");
+	}
 public static void main(String[] args) {
 	Data D=new Data();
 	D.add();
+	D.employeedet();
 }
 }
