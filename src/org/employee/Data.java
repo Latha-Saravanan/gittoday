@@ -17,14 +17,27 @@ public class Data {
 	System.out.println("Employee Salary is " + salary);
 	System.out.println("Employee Gender is " + empGender);
 	System.out.println("Employee City is " + empCity);
+	
+	}
+	private void employee() {
+		System.out.println("Process Completed");
 	}
 	
 	private void employeedet() {
     System.out.println("Process Completed");
 	}
-public static void main(String[] args) {
+
+	
+	public static void main(String[] args) {
 	Data D=new Data();
 	D.add();
 	D.employeedet();
+	D.employee();
+	
+//<<<<<<< HEAD
+//  D.employeedet();	
+//=======
+//	D.employee();
+//>>>>>>> 671536c6a634ced98e077f65c3ad9abc27503180
 }
 }
